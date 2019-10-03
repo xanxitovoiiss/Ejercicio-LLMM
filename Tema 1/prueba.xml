@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BIBLIOTECA>
+        <LIBRO>
+                <NOMBRE>Crímenes exquisitos</NOMBRE>
+                <AUTOR>Vicente Garrido</AUTOR>
+                <AUTOR>Nieves Abarca</AUTOR>
+        </LIBRO>
+        <LIBRO>
+                <NOMBRE>El latido del tiempo</NOMBRE>
+                <AUTOR>Cari Ariño</AUTOR>
+        </LIBRO>
+</BIBLIOTECA>
