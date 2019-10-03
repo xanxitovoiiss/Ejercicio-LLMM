@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="estilo1.css">
+</head>
+<body>
+<header>
+	<h1> LA MARISMA </h1>
+	<h2> Formulario de registro </h2>
+</header> 
+<p> Los campos marcados con una asterisco son obligatorios </p>
+<form action="/action_page.php">
+<fieldset>
+    <legend>¿Quien eres?:</legend>
+    Nombre *
+    <input type="text" name="firstname" required autofocus placeholder="">
+    <br>
+	Apellido *
+    <input type="text" name="lastname" required placeholder=""> <br>
+	Correo electronico
+   <input type="email" name="email" size="23" required placeholder="informacion@lasmarismas.com">
+   Fecha de nacimiento
+   <input type="date" name="bday"> <br>
+	Mi color favorito es el: 
+  <input type="color" name="favcolor" value="#000000"> 
+    </fieldset> <br> <br>
+  
+<fieldset>
+     <legend>¿De donde eres?:</legend>
+    Ciudad
+    <input type="text" name="firstname" placeholder="Tu Ciudad">
+    <br>
+	Codigo postal
+	<input type="text" pattern="[0-9}" placeholder="00000"> <br>
+	
+	Pais
+	<select>
+    <option value="AF">Spain</option>
+    <option value="AX">Russia</option>
+    <option value="AL">Cuba</option>
+    <option value="YE">Yemen</option>
+    <option value="ZM">Zambia</option>
+    <option value="ZW">Zimbabwe</option>
+		</select>
+   </fieldset>  <br><br>
+   
+
+<fieldset>
+<legend>¿Como quieres iniciar sesion?:</legend>
+    Nombre de usuario *
+    <input type="text" name="firstname" required>  <br>
+  	Contraseña *
+    <input type="password" name="psw" required> <br>
+	Repetir contraseña *
+   <input type="password" name="psw" required> <br>
+  </fieldset>   <br><br>
+  
+  
+<input type="submit" value="Crear cuenta">
+   </form>
+
+</body>
+</html>
